@@ -15,13 +15,19 @@ namespace AssignmentStatements
            const int MYIDEAOFBIGNUMBER = 100;
          
            x = x + y;
-        //   x = y^3;
+           x = y^3;
    //     x *= 100;
-        bigNumber = (x > MYIDEAOFBIGNUMBER);
-        //   x = x + 1;
-      //  y = y % 5;
-
-       //    x += 2;
+        bigNumber = (x >= MYIDEAOFBIGNUMBER);
+        y = 47;
+        bigNumber = (y == 47);
+        y = 99;
+        bigNumber = !bigNumber;
+        bigNumber = (y != x);
+           x = x + 2;
+        y = y % 5;
+     lName = lName + y.ToString();
+           x += 2;
+           x = 4;
            fullName  = $"{fName} {lName} is the best looking person in the world!";
            Console.WriteLine(x);
            Console.WriteLine(y);
